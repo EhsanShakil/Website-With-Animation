@@ -1,0 +1,24 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  margin: 50px;
+  padding: 20px;
+  border-radius: 22px;
+  background: linear-gradient(315deg, #84fab0, #8fd3f4);
+  box-shadow: -13px -13px 26px #84fab0, 13px 13px 26px #8fd3f4;
+}
+.Screens {
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav {
+  text-decoration: none;
+  color: white;
+}
