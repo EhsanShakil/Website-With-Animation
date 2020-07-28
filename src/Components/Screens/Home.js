@@ -8,7 +8,7 @@ function Home() {
     <div className="Screens home" id="home">
       <div>
         <h1>Do You Need A Complete IT Solution?</h1>
-        <p>
+        <p className="paragrapgh">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -19,7 +19,7 @@ function Home() {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-        <p>
+        <p className="paragrapgh">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and

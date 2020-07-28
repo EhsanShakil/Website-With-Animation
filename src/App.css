@@ -48,12 +48,11 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
 }
 .service-card {
-  border-radius: 56px;
-  background: linear-gradient(145deg, #e6e6e6, #ffffff);
-  box-shadow: 16px 16px 20px #666666, -16px -16px 20px #ffffff;
+  border-radius: 48px;
+  background: #ffffff;
+  box-shadow: 13px 13px 46px #666666, -13px -13px 46px #ffffff;
   width: 300px;
   height: 500px;
 }
@@ -73,4 +72,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.paragrapgh {
+  color: white;
+  font-size: 18px;
+}
+.aboutus-image {
+  width: 500px;
+}
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
