@@ -48,6 +48,7 @@ body {
   color: white;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .service-card {
   border-radius: 48px;
@@ -84,4 +85,41 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.teamcard {
+  border-radius: 48px;
+  background: #ffffff;
+  box-shadow: 13px 13px 46px #666666, -13px -13px 46px #ffffff;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teamimage {
+  margin-top: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 8px 8px 16px #666666, -8px -8px 16px #ffffff;
+  width: 150px;
+  overflow: hidden;
+}
+.teamtitle {
+  border-radius: 48px;
+  background: #ffffff;
+  box-shadow: 13px 13px 46px #666666, -13px -13px 46px #ffffff;
+  width: 200px;
+}
+.teamdesignation {
+  border-radius: 48px;
+  background: #ffffff;
+  box-shadow: 13px 13px 46px #666666, -13px -13px 46px #ffffff;
+  display: flex;
+  width: 200px;
+  margin-bottom: 100px;
+}
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
