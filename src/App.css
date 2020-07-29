@@ -19,7 +19,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-
 .navbar {
   display: flex;
   flex-direction: row;
