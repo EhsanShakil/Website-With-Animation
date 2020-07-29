@@ -19,12 +19,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-.logo > a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -174,5 +169,12 @@ body {
   justify-content: space-around;
 }
 .footer {
-  width: 10px;
+  height: 2px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+.footertext {
+  color: white;
+  text-align: center;
 }
