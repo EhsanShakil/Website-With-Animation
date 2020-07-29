@@ -32,7 +32,7 @@ function Home() {
         </p>
       </div>
       <div>
-        <img src={home} alt="image" />
+        <img src={home} alt="home" />
       </div>
     </div>
   );

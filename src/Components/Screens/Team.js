@@ -13,25 +13,17 @@ function Team() {
       </div>
       <div className="team">
         <div className="teamcard">
-          <img className="teamimage" src={teamleader} alt="team leader Image" />
+          <img className="teamimage" src={teamleader} alt="team leader" />
           <h3>Name</h3>
           <h2>Team Leader</h2>
         </div>
         <div className="teamcard">
-          <img
-            className="teamimage"
-            src={webdeveloper}
-            alt="web developer Image"
-          />
+          <img className="teamimage" src={webdeveloper} alt="web developer" />
           <h3>Name</h3>
           <h2>Web Developer</h2>
         </div>
         <div className="teamcard">
-          <img
-            className="teamimage"
-            src={appdeveloper}
-            alt="app developer Image"
-          />
+          <img className="teamimage" src={appdeveloper} alt="app developer" />
           <h3>Name</h3>
           <h2>App Developer</h2>
         </div>
