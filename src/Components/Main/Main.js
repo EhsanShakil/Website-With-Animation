@@ -5,6 +5,7 @@ import Services from "../Screens/Services";
 import About from "../Screens/About";
 import Team from "../Screens/Team";
 import Contact from "../Screens/Contact";
+import Footer from "../Screens/Footer";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       <About />
       <Team />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -34,7 +34,7 @@ const Header = () => {
         </ul>
         <ul className="nav">
           <li>
-            <a href="#contact">Contact Us</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

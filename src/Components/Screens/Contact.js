@@ -1,17 +1,45 @@
 import React from "react";
 
+const contactus = require("./pictures/contactus.png");
+
 function Contact() {
   return (
     <div className="Screens" id="contact">
       <div className="heading">
         <h1>Contact Us</h1>
       </div>
-      <div>
+      <div className="contact">
         <div>
-          <img />
+          <img className="contactimage" src={contactus} alt="contactus" />
         </div>
         <div>
-          <form></form>
+          <form className="form">
+            <input
+              type="text"
+              className="input"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              type="email"
+              className="input"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="phonenumber"
+              className="input"
+              placeholder="Phone Number"
+              required
+            />
+            <input
+              type="textarea"
+              className="inputmessage"
+              placeholder="Message"
+              required
+            />
+            <button className="button">Send</button>
+          </form>
         </div>
       </div>
     </div>
