@@ -185,22 +185,26 @@ body {
 #toggle {
   display: none;
 }
-
 @media (max-width: 765px) {
   .navbar {
     display: flex;
     flex-direction: column;
     display: none;
+    position: relative;
+    top: 50px;
+    right: 80%;
   }
   .material-icons {
     display: flex;
     cursor: pointer;
+    position: fixed;
+    right: 10%;
   }
   .navbar > a {
     width: 100%;
     text-align: center;
   }
-  #toggle:checked + .navbar {
+  #toggle:checked ~ .navbar {
     display: flex;
   }
 }

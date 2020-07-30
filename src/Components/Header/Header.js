@@ -11,12 +11,10 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div>
-        <label htmlFor="toggle" className="material-icons">
-          menu
-        </label>
-        <input type="checkbox" id="toggle" />
-      </div>
+      <label htmlFor="toggle" className="material-icons">
+        menu
+      </label>
+      <input type="checkbox" id="toggle" />
       <div className="navbar">
         <ul className="nav">
           <li>
