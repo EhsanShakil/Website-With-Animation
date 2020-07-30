@@ -38,7 +38,9 @@ function Contact() {
               placeholder="Message"
               required
             />
-            <button className="button">Send</button>
+            <button onClick={(e) => e.preventDefault()} className="button">
+              Send
+            </button>
           </form>
         </div>
       </div>
