@@ -7,7 +7,7 @@ const softwaredevelopment = require("./pictures/4.png");
 
 function Services() {
   return (
-    <div className="Screens" id="services">
+    <div className="Screens " id="services">
       <div className="heading">
         <h1>Our Services</h1>
       </div>

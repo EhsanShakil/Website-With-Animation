@@ -4,17 +4,11 @@ import "../../App.css";
 const Header = () => {
   return (
     <div className="header">
-      <div>
-        <ul className="nav">
-          <li className="logo">
-            <a href="#home">LOGO</a>
-          </li>
-        </ul>
-      </div>
+      <h1 className="logo">LOGO</h1>
+      <input type="checkbox" id="toggle" />
       <label htmlFor="toggle" className="material-icons">
         menu
       </label>
-      <input type="checkbox" id="toggle" />
       <div className="navbar">
         <ul className="nav">
           <li>
