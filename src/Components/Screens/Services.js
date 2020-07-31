@@ -1,15 +1,17 @@
 import React from "react";
 import "../../App.css";
+import useWebAnimations, { bounceInRight } from "@wellyshen/use-web-animations";
 
 const webdevelopment = require("./pictures/web-development.png");
 const appdevelopment = require("./pictures/3.png");
 const softwaredevelopment = require("./pictures/4.png");
 
 function Services() {
+  const { ref: r1 } = useWebAnimations({ ...bounceInRight });
   return (
     <div className="Screens " id="services">
       <div className="heading">
-        <h1>Our Services</h1>
+        <h1 ref={r1}>Our Services</h1>
       </div>
       <div className="services-cards">
         <div className="service-card">

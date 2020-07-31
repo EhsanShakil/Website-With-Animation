@@ -1,9 +1,6 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations, {
-  bounceInLeft,
-  bounce,
-} from "@wellyshen/use-web-animations";
+import useWebAnimations, { bounceInLeft } from "@wellyshen/use-web-animations";
 
 const home = require("./pictures/home.png");
 
