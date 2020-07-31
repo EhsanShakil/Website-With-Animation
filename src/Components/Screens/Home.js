@@ -1,14 +1,22 @@
 import React from "react";
 import "../../App.css";
+import useWebAnimations, {
+  bounceInLeft,
+  bounce,
+} from "@wellyshen/use-web-animations";
 
 const home = require("./pictures/home.png");
 
 function Home() {
+  const { ref: r1 } = useWebAnimations({ ...bounceInLeft });
+  const { ref: r2 } = useWebAnimations({ ...bounceInLeft });
+  const { ref: r3 } = useWebAnimations({ ...bounceInLeft });
+
   return (
     <div className="Screens home" id="home">
       <div>
-        <h1>Do You Need A Complete IT Solution?</h1>
-        <p className="paragrapgh">
+        <h1 ref={r1}>Do You Need A Complete IT Solution?</h1>
+        <p ref={r2} className="paragrapgh">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -19,7 +27,7 @@ function Home() {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-        <p className="paragrapgh">
+        <p ref={r3} className="paragrapgh">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
