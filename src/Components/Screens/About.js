@@ -1,13 +1,14 @@
 import React from "react";
 import "../../App.css";
-
+import useWebAnimations, { bounceInLeft } from "@wellyshen/use-web-animations";
 const aboutus = require("./pictures/aboutussss.png");
 
 function About() {
+  const { ref: r1 } = useWebAnimations({ ...bounceInLeft });
   return (
     <div className="Screens" id="about">
       <div className="heading">
-        <h1>About Us</h1>
+        <h1 ref={r1}>About Us</h1>
       </div>
       <div className="aboutus">
         <div>
