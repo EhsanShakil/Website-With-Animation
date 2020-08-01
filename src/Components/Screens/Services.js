@@ -1,13 +1,13 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations, { bounceInRight } from "@wellyshen/use-web-animations";
+import useWebAnimations, { bounce } from "@wellyshen/use-web-animations";
 
 const webdevelopment = require("./pictures/web-development.png");
 const appdevelopment = require("./pictures/3.png");
 const softwaredevelopment = require("./pictures/4.png");
 
 function Services() {
-  const { ref: r1 } = useWebAnimations({ ...bounceInRight });
+  const { ref: r1 } = useWebAnimations({ ...bounce });
   return (
     <div className="Screens " id="services">
       <div className="heading">
