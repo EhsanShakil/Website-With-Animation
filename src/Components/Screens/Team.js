@@ -1,15 +1,17 @@
 import React from "react";
 import "../../App.css";
+import useWebAnimations, { bounceInLeft } from "@wellyshen/use-web-animations";
 
 const teamleader = require("./pictures/teamleader.png");
 const webdeveloper = require("./pictures/webdeveloper.png");
 const appdeveloper = require("./pictures/appdeveloper.png");
 
 function Team() {
+  const { ref: r1 } = useWebAnimations({ ...bounceInLeft });
   return (
     <div className="Screens" id="team">
       <div className="heading">
-        <h1>Our Team</h1>
+        <h1 ref={r1}>Our Team</h1>
       </div>
       <div className="team">
         <div className="teamcard">
