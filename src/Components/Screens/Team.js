@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations, { bounceInLeft } from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 import AOS from "aos";
 AOS.init();
 
@@ -9,7 +9,6 @@ const webdeveloper = require("./pictures/webdeveloper.png");
 const appdeveloper = require("./pictures/appdeveloper.png");
 
 function Team() {
-  const { ref: r1 } = useWebAnimations({ ...bounceInLeft });
   return (
     <div className="Screens" id="team">
       <div className="heading">

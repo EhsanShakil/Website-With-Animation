@@ -1,16 +1,12 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations, { bounceInLeft } from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 import AOS from "aos";
 AOS.init();
 
 const home = require("./pictures/home.png");
 
 function Home() {
-  const { ref: r1 } = useWebAnimations({ ...bounceInLeft });
-  const { ref: r2 } = useWebAnimations({ ...bounceInLeft });
-  const { ref: r3 } = useWebAnimations({ ...bounceInLeft });
-
   return (
     <div className="Screens home" id="home">
       <div>

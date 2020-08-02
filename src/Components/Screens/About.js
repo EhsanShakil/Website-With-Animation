@@ -1,13 +1,12 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations, { bounceInLeft } from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 import AOS from "aos";
 AOS.init();
 
 const aboutus = require("./pictures/aboutussss.png");
 
 function About() {
-  const { ref: r1 } = useWebAnimations({ ...bounceInLeft });
   return (
     <div className="Screens" id="about">
       <div className="heading">

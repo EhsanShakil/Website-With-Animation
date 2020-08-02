@@ -1,12 +1,11 @@
 import React from "react";
-import useWebAnimations, { bounceInLeft } from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 import AOS from "aos";
 AOS.init();
 
 const contactus = require("./pictures/contactus.png");
 
 function Contact() {
-  const { ref: r1 } = useWebAnimations({ ...bounceInLeft });
   return (
     <div className="Screens" id="contact">
       <div className="heading">

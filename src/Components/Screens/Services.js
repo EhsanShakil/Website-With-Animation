@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations, { bounce } from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 import AOS from "aos";
 AOS.init();
 
@@ -9,7 +9,6 @@ const appdevelopment = require("./pictures/3.png");
 const softwaredevelopment = require("./pictures/4.png");
 
 function Services() {
-  const { ref: r1 } = useWebAnimations({ ...bounce });
   return (
     <div className="Screens " id="services">
       <div className="heading">
