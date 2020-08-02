@@ -1,6 +1,8 @@
 import React from "react";
 import "../../App.css";
 import useWebAnimations, { bounce } from "@wellyshen/use-web-animations";
+import AOS from "aos";
+AOS.init();
 
 const webdevelopment = require("./pictures/web-development.png");
 const appdevelopment = require("./pictures/3.png");
@@ -11,10 +13,22 @@ function Services() {
   return (
     <div className="Screens " id="services">
       <div className="heading">
-        <h1 ref={r1}>Our Services</h1>
+        <h1
+          data-aos="fade-left"
+          data-aos-delay="500"
+          data-aos-once="false"
+          data-aos-easing="ease-in-out"
+        >
+          Our Services
+        </h1>
       </div>
       <div className="services-cards">
-        <div className="service-card">
+        <div
+          className="service-card"
+          data-aos="flip-left"
+          data-aos-delay="700"
+          data-aos-once="false"
+        >
           <img
             className="services-image"
             src={webdevelopment}
@@ -30,7 +44,12 @@ function Services() {
             remaining essentially unchanged.
           </p>
         </div>
-        <div className="service-card">
+        <div
+          className="service-card"
+          data-aos="flip-left"
+          data-aos-delay="800"
+          data-aos-once="false"
+        >
           <img
             className="services-image"
             src={appdevelopment}
@@ -46,7 +65,12 @@ function Services() {
             remaining essentially unchanged.
           </p>
         </div>
-        <div className="service-card">
+        <div
+          className="service-card"
+          data-aos="flip-left"
+          data-aos-delay="900"
+          data-aos-once="false"
+        >
           <img
             className="services-image"
             src={softwaredevelopment}
