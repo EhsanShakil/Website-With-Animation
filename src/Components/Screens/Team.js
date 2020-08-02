@@ -1,6 +1,8 @@
 import React from "react";
 import "../../App.css";
 import useWebAnimations, { bounceInLeft } from "@wellyshen/use-web-animations";
+import AOS from "aos";
+AOS.init();
 
 const teamleader = require("./pictures/teamleader.png");
 const webdeveloper = require("./pictures/webdeveloper.png");
