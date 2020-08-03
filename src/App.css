@@ -39,6 +39,10 @@ body {
   color: white;
   display: flex;
 }
+.homeimage {
+  width: 500px;
+  height: 350px;
+}
 .heading {
   color: white;
   display: flex;

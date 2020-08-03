@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations from "@wellyshen/use-web-animations";
 import AOS from "aos";
 AOS.init();
 
@@ -14,7 +13,7 @@ function Team() {
       <div className="heading">
         <h1
           data-aos="fade-left"
-          data-aos-delay="500"
+          data-aos-delay="100"
           data-aos-once="false"
           data-aos-easing="ease-in-out"
         >
@@ -25,7 +24,7 @@ function Team() {
         <div
           className="teamcard"
           data-aos="flip-up"
-          data-aos-delay="600"
+          data-aos-delay="300"
           data-aos-once="false"
         >
           <img className="teamimage" src={teamleader} alt="team leader" />
@@ -35,7 +34,7 @@ function Team() {
         <div
           className="teamcard"
           data-aos="flip-up"
-          data-aos-delay="700"
+          data-aos-delay="500"
           data-aos-once="false"
         >
           <img className="teamimage" src={webdeveloper} alt="web developer" />
@@ -45,7 +44,7 @@ function Team() {
         <div
           className="teamcard"
           data-aos="flip-up"
-          data-aos-delay="800"
+          data-aos-delay="700"
           data-aos-once="false"
         >
           <img className="teamimage" src={appdeveloper} alt="app developer" />

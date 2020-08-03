@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations from "@wellyshen/use-web-animations";
 import AOS from "aos";
 AOS.init();
 
@@ -12,7 +11,7 @@ function Home() {
       <div>
         <h1
           data-aos="fade-right"
-          data-aos-delay="500"
+          data-aos-delay="100"
           data-aos-once="true"
           data-aos-easing="ease-in-out"
         >
@@ -20,7 +19,7 @@ function Home() {
         </h1>
         <p
           data-aos="fade-right"
-          data-aos-delay="600"
+          data-aos-delay="300"
           data-aos-once="true"
           className="paragrapgh"
         >
@@ -36,7 +35,7 @@ function Home() {
         </p>
         <p
           data-aos="fade-right"
-          data-aos-delay="700"
+          data-aos-delay="500"
           data-aos-once="true"
           className="paragrapgh"
         >
@@ -52,7 +51,7 @@ function Home() {
         </p>
       </div>
       <div>
-        <img src={home} alt="home" />
+        <img className="homeimage" src={home} alt="home" />
       </div>
     </div>
   );

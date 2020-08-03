@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-import useWebAnimations from "@wellyshen/use-web-animations";
 import AOS from "aos";
 AOS.init();
 
@@ -14,7 +13,7 @@ function Services() {
       <div className="heading">
         <h1
           data-aos="fade-left"
-          data-aos-delay="500"
+          data-aos-delay="100"
           data-aos-once="false"
           data-aos-easing="ease-in-out"
         >
@@ -25,7 +24,7 @@ function Services() {
         <div
           className="service-card"
           data-aos="flip-left"
-          data-aos-delay="700"
+          data-aos-delay="300"
           data-aos-once="false"
         >
           <img
@@ -46,7 +45,7 @@ function Services() {
         <div
           className="service-card"
           data-aos="flip-left"
-          data-aos-delay="800"
+          data-aos-delay="500"
           data-aos-once="false"
         >
           <img
@@ -67,7 +66,7 @@ function Services() {
         <div
           className="service-card"
           data-aos="flip-left"
-          data-aos-delay="900"
+          data-aos-delay="700"
           data-aos-once="false"
         >
           <img
