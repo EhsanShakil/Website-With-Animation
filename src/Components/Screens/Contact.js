@@ -67,7 +67,7 @@ function Contact() {
               onClick={(e) => e.preventDefault()}
               className="button"
               data-aos="fade-left"
-              data-aos-delay="1000"
+              data-aos-delay="900"
               data-aos-once="false"
               data-aos-easing="ease-in-out"
             >
