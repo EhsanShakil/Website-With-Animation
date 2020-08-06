@@ -85,7 +85,9 @@ body {
 .services-paragraph {
   padding: 20px;
   text-align: center;
+  overflow: hidden;
 }
+
 .services-cards {
   display: flex;
   flex-direction: row;
