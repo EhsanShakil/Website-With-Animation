@@ -52,7 +52,15 @@ function Home() {
         </p>
       </div>
       <div>
-        <img className="homeimage" src={home} alt="home" />
+        <img
+          data-aos="fade-left"
+          data-aos-delay="100"
+          data-aos-once="true"
+          data-aos-easing="ease-in-out"
+          className="homeimage"
+          src={home}
+          alt="home"
+        />
       </div>
     </div>
   );

@@ -19,7 +19,15 @@ function Contact() {
       </div>
       <div className="contact">
         <div>
-          <img className="contactimage" src={contactus} alt="contactus" />
+          <img
+            data-aos="fade-right"
+            data-aos-delay="300"
+            data-aos-once="false"
+            data-aos-easing="ease-in-out"
+            className="contactimage"
+            src={contactus}
+            alt="contactus"
+          />
         </div>
         <div>
           <form className="form">

@@ -20,7 +20,14 @@ function About() {
       </div>
       <div className="aboutus">
         <div>
-          <img className="aboutus-image" src={aboutus} alt="about-us" />
+          <img
+            data-aos="fade-right"
+            data-aos-delay="300"
+            data-aos-once="false"
+            className="aboutus-image"
+            src={aboutus}
+            alt="about-us"
+          />
         </div>
         <div className="paragrapgh">
           <p data-aos="fade-left" data-aos-delay="300" data-aos-once="false">
